@@ -6,8 +6,9 @@
 스택에 넣고 빼는데 인덱스를 같이 넣어 인덱스 차이가 1이면 레이저
 아니면 막대기
 """
-
-statement = input()
+import sys
+input = sys.stdin.readline
+statement = input().strip()
 
 stack = []
 
